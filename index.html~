@@ -1,0 +1,66 @@
+<!DOCTYPE HTML>
+<html>
+<script>
+function myfunction(){
+alert("Under Construction :)");
+}
+</script>
+<style>
+body{
+background-image: url("23-beach-sea-photography.jpg");
+background-size: cover ;
+background-repeat: no-repeat;
+}
+table{
+text-align: center;
+
+background-colour: grey;
+border-collapse: collapse;
+border: 1px solid white;
+}
+button{
+background-colour:blue;
+
+}
+</style>
+<body>
+<h1 style="text-align:center; color:black;">
+Devashish Mehta <br>
+<img src="IMG_20160307_162754.jpg" height="100px" width="100px">
+</h1>
+<br>
+<table style="width:100%">
+<tr>
+<td><b> <a href="dnmehta.html"> HOME </a> </td>
+<td><b> <a href="hobbies.html"> ABOUT ME </a> </td>
+<td> <button onclick="myfunction()" style="color:white; background-color:blue;"> <b>CURRICULUM VITAE</b> </button> </td>
+<td> <a href="contact.html"> CONTACT ME </a></td>
+</tr>
+</table>
+<br>
+<br>
+<br>
+<p style="color:white; text-align:center" ><font size="5">
+<b><i>I am a first year undergraduate student at IIT-Kanpur pursuing my B-Tech in Computer Science and Engineering...</i>
+<br>
+I am presently doing a project on 'Ethical Hacking' under the 'Programming Club' IIT-Kanpur...
+<br>
+<br>
+You can know more about me or contact me by clicking on the links above...
+<br>
+<br>
+Thanks for stopping by.. Have a nice day :)
+<br>
+<br>
+<br>
+<br>
+<br>
+</font>
+</p>
+
+<p style="color:red; text-align:center;"><font size="4">
+Hardwork Beats Talent...Every Single Time...
+</font>
+</p>
+</body>
+<html>

@@ -1,0 +1,53 @@
+<!DOCTYPE HTML>
+<html>
+<script>
+function myfunction(){
+alert("Under Construction :)");
+}
+</script>
+<style>
+body{
+background-image: url("23-beach-sea-photography.jpg");
+background-size: cover ;
+background-repeat: no-repeat;
+}
+table{
+text-align: center;
+color: blue;
+background-colour: grey;
+border-collapse: collapse;
+border: 1px solid white;
+}
+button{
+background-colour:blue;
+
+}
+</style>
+<body>
+<h1 style="text-align:center; color:black;">
+Devashish Mehta <br>
+<img src="IMG_20160307_162754.jpg" height="100px" width="100px">
+</h1>
+<br>
+<table style="width:100%">
+<tr>
+<td><b> <a href="index.html"> HOME </a> </td>
+<td><b> <a href="hobbies.html"> ABOUT ME </a> </td>
+<td> <button onclick="myfunction()" style="color:white; background-color:blue;"> <b>CURRICULUM VITAE</b> </button> </td>
+<td> CONTACT ME </td>
+</tr>
+</table>
+<p style="color:#FAFD2D; text-align:center;"><font size="6">
+Hi...<br>
+To contact me by phone, Just ping me on <i> +918173801023 </i> <br>
+You can also email me on <i>dnmehta@iitk.ac.in</i> <br>
+Or....Drop by at <i> D-205 Hall-5 IIT-Kanpur :) <br><br><br></i>
+</font>
+</p>
+<center>
+<a href="https://www.facebook.com/devashish.mehta.7"><img src="fb_icon.png"   height="40" width="40"></a>
+&nbsp &nbsp &nbsp
+<a href="https://www.github.com/dnmehta"><img src="github_icon.png"   height="40" width="40"></a>
+</center>
+</body>
+<html>

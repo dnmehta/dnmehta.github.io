@@ -1,0 +1,37 @@
+body{
+background-image: url("wallpaper1.jpg");
+background-size: auto auto ;
+background-repeat: no-repeat;
+}
+table#t1{
+text-align: center;
+
+background-colour: grey;
+border-collapse: collapse;
+border: 1px solid white;
+}
+button{
+background-colour:blue;
+}
+a:link {
+    color: red;
+}
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+    color: hotpink;
+}
+a:active {
+    color: blue;
+}
+th, td {
+    text-align: center;
+}
+table#t2{
+	color: #9999e6;
+	border: 1px solid #cce6ff ;
+	height: 100px;
+}

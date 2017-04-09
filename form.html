@@ -1,0 +1,71 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="one.css">
+	<script>
+	var a=new Array();
+	var num=0;
+	function update_print_xml(){
+		
+		var sname= document.forms["xml_form"]["sname"].value; //students name
+		var area= document.forms["xml_form"]["Area"].value;   //area
+		var fname = document.forms["xml_form"]["fname"].value;  //faculty name
+		var xml_new_entry="";
+		if(sname!="" && (area!="" || fname!="")){   //no insertion when student name is not provided or both the faculty and area is empty
+			num=num+1;
+			xml_new_entry="\t<entry_"+num+"> \n \t \t<student>\n \t \t \t"+ sname+"\n \t \t</student> \n \t \t<area>\n \t \t \t"+area+"\n \t \t</area> \n \t \t<faculty>\n \t \t \t"+fname+"\n \t \t</faculty>\n \t </entry_"+num+">\n"   ;
+		}
+	
+		    
+		a.push(xml_new_entry);
+		var i;
+		var final_xml="";
+		final_xml+="<Intrests> \n"
+		for(i=0; i<a.length;i++){
+			final_xml+=a[i];
+		}
+		final_xml+="</Intrests>"
+		document.getElementById("box").innerHTML=final_xml;
+		
+	}
+	</script>
+</head>
+<body>
+<h1 style="text-align:center; color:#708090;">
+Devashish Mehta <br>
+<img src="IMG_20160307_162754.jpg" height="100px" width="100px">
+</h1>
+<br>
+<table style="width:100%">
+<tr>
+<td><b> <a href="index.html"> HOME </a> </td>
+<td><b> <a href="hobbies.html"> ABOUT ME </a> </td>
+<td>  <a href="150226_2.pdf">CV</a></td>
+<td> <a href="contact.html"> CONTACT ME </a></td>
+<td><a href="academics.html"> ACADEMICS </a></td>
+<td><a href="Counter.html"> COUNTER </a></td>
+<td><a href="form.html"> FORM </a></td>
+</tr>
+</table>
+<form name="xml_form">
+	<p style="color:blue">
+	Student Name:<br>
+  <input type="text" name="sname" value="">
+  <br>
+  	Area:<br>
+  <input type="text" name="Area" value="">
+  <br>
+  	Faculty Name:<br>
+  <input type="text" name="fname" value="">
+  <br><br>
+  <button type="button" onclick="update_print_xml()" style="color:blue">Submit</button>
+</p>
+</form>	
+
+<textarea rows="18" cols="80" id="box" style="color:black; background-color:rgb(255, 230, 183);">
+	Fill some data to display in XML format
+</textarea>
+
+
+</body>
+<html>
